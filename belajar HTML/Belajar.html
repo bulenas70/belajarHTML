@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elemen Form</title>
+  </head>
+  <body>
+    <form action>
+      <p>Username : <input type="text"></p>
+      <p>Password : <input type="password"></p>
+      <button type="submit" name="submit">Login</button>
+
+      <!-- ELEMEN TEXT AREA -->
+      <p>Alamat : <textarea name id cols="50" rows="5">Alamat
+          Lengkap</textarea></p>
+      <!-- text area end -->
+
+      <!-- elemen form date -->
+      <p>Tanggal Lahir : <input type="date"></p>
+      <!-- elemen form date end -->
+
+      <!-- form radio button -->
+      <p>Golongan Darah :
+        <input type="radio" name="Golongan_Darah" value="O">O
+        <input type="radio" name="Golongan_Darah" value="AB">AB
+        <input type="radio" name="Golongan_Darah" value="B">B
+        <input type="radio" name="Golongan_Darah" value="A">A
+      </p>
+      <!-- form radio button end -->
+
+      <!-- form checkbox -->
+      <p>Hobby :
+        <input type="checkbox">Membaca
+        <input type="checkbox">Ngoding
+        <input type="checkbox">Menulis
+        <input type="checkbox">Olahraga
+      </p>
+      <!-- form checkbox end -->
+
+      <!-- form Tag select & Option -->
+      <p>Pilih Jurusan :
+        <select name id>
+          <option value>Teknik Komputer</option>
+          <option value>Manajemen Informatika</option>
+          <option value>System Informasi</option>
+          <option value selected>Teknik Informatika</option>
+        </select>
+      </p>
+      <!-- form Tag select & Option end -->
+
+      <!-- form Tag Label -->
+      <p>
+        <label for="Username">Username :</label>
+        <input type="text" name id="Username">
+      </p>
+
+      <p> Pilihan :
+        <label for="pilihan">
+          <input type="checkbox" name id="pilihan">HTML</label>
+      </p>
+
+      <p>Jenis Kelamin :
+        <label for="laki_laki">
+          <input type="radio" name="jenis_kelamin"
+            id="laki_laki">Laki-Laki</label>
+        <label for="perempuan">
+          <input type="radio" name="jenis_kelamin"
+            id="perempuan">Perempuan</label>
+      </p>
+      <!-- form Tag Label end -->
+
+      <!-- form Tag fieldset & Legend -->
+      <fieldset>
+        <legend>Data Peserta</legend>
+        <p>Nama : <input type="text"></p>
+        <p>Alamat : <input type="text"></p>
+      </fieldset> <br>
+
+      <fieldset>
+        <legend>Pilih Paket Pilihan</legend>
+        <p><input type="checkbox">HTML</p>
+        <p><input type="checkbox">Css</p>
+        <p><input type="checkbox">Java Scriipt</p>
+        <p><input type="checkbox">PHP</p>
+      </fieldset>
+      <!-- form Tag fieldset & Legend end -->
+
+      <!-- form registrasi -->
+      <h2>Form Registrasi Kursus</h2>
+      <form action>
+        <fieldset>
+          <legend>Data Peserta Kursus</legend>
+          <p>Nama : <input type="text"></p>
+          <p>Alamat : <input type="text"></p>
+          <p>Jenis Kelamin :
+            <input type="radio" name="jenis_kelamin">Laki-Laki
+            <input type="radio" name="jenis_kelamin">Perempuan</p>
+          <p>Tempat Lahir : <input type="text"></p>
+          <p>Tanggal Lahir : <input type="date"></p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Paket Pilihan</legend>
+          <p><input type="checkbox" checked>HTML</p>
+          <p><input type="checkbox">CSS</p>
+          <p><input type="checkbox">JavaScript</p>
+          <p><input type="checkbox">PHP</p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Pilih Jadwal Kursus</legend>
+          <p><input type="radio" name="jadwal">Pagi</p>
+          <p><input type="radio" name="jadwal">Siang</p>
+          <p><input type="radio" name="jadwal">Sore</p>
+        </fieldset>
+        <p>Biaya Pendaftaran : <input type="text" value="Rp.150.000"></p>
+        <button type="su">Kirim Data</button>
+      </form>
+      <!-- form registrasi end-->
+
+    </form>
+  </body>
+</html>
